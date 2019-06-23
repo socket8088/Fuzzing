@@ -11,7 +11,7 @@ def main():
     session = Session(
 	#sleep_time=10,
         target=Target(
-            connection=SocketConnection("192.168.1.147", 7510, proto='tcp')
+            connection=SocketConnection("192.168.1.99", 7510, proto='tcp')
         ),
     )
 
