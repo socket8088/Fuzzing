@@ -23,7 +23,7 @@ def main():
 	s_static("Host", name='host-string')
 	s_delim(":")
 	s_delim(" ")
-	s_string("192.168.1.147",  name='host-ip-address')
+	s_string("192.168.1.99",  name='host-ip-address')
 	s_delim("\r\n")
 
     with s_block("Other-headers"):
